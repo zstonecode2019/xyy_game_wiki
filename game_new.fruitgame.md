@@ -4,9 +4,6 @@
 
 ## FruitGame class
 
-> This API is provided as a beta preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
-
 领水果游戏
 
 **Signature:**
@@ -20,25 +17,19 @@ export default class FruitGame extends EventEmitter implements IProject
 
 ## Remarks
 
-This method is part of the .
-
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)()](./game_new.fruitgame._constructor_.md) |  | **_(BETA)_** Constructs a new instance of the <code>FruitGame</code> class |
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `FruitGame` class.
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [is\_engine\_init](./game_new.fruitgame.is_engine_init.md) |  | boolean | **_(BETA)_** |
+|  [is\_engine\_init](./game_new.fruitgame.is_engine_init.md) |  | boolean |  |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [\_initDefaultView(engine)](./game_new.fruitgame._initdefaultview.md) |  | **_(BETA)_** |
-|  [\_initStreetView(engine)](./game_new.fruitgame._initstreetview.md) |  | **_(BETA)_** |
-|  [render()](./game_new.fruitgame.render.md) |  | **_(BETA)_** |
+|  [\_initDefaultView(engine)](./game_new.fruitgame._initdefaultview.md) |  | Returns a default scene. |
+|  [\_initStreetView(engine)](./game_new.fruitgame._initstreetview.md) |  | Returns a street scene. |
+|  [render()](./game_new.fruitgame.render.md) |  |  |
 
