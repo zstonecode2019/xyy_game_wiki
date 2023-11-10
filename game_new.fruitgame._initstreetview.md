@@ -4,8 +4,7 @@
 
 ## FruitGame.\_initStreetView() method
 
-> This API is provided as a beta preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+Returns a street scene.
 
 **Signature:**
 
@@ -22,4 +21,8 @@ _initStreetView(engine: WebGLEngine): Promise<Scene>;
 **Returns:**
 
 Promise&lt;Scene&gt;
+
+## Remarks
+
+异步加载街区场景 街区场景是一个用户进入的街区的场景，包含了一些街区资源
 
