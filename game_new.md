@@ -8,5 +8,7 @@
 
 |  Class | Description |
 |  --- | --- |
-|  [FruitGame](./game_new.fruitgame.md) | **_(BETA)_** 领水果游戏 |
+|  [FruitGame](./game_new.fruitgame.md) | 领水果游戏 |
+
+
 
